@@ -761,6 +761,7 @@ a:hover {
 
 .navbar-collapse {
   text-align: center;
+  margin-top: 40px;
 }
 
 .navbar {
@@ -1053,6 +1054,15 @@ span.middle-line:after {
   }
   #loader .loader-item, #loader2 .loader-item, #loader3 .loader-item {
     top: 30%;
+  }
+}
+
+@media (max-width: 470px) {
+  #parallaxh5 {
+    font-size: 2rem !important;
+  }
+  #parallaxp {
+    font-size: 1rem !important;
   }
 }
 
