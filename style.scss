@@ -497,6 +497,7 @@ text-align: center;
  
 .navbar-collapse {
     text-align: center;
+    margin-top: 40px;
 }
 .navbar {
     padding-left: 0.5rem;
@@ -745,6 +746,16 @@ h5 {
     #loader .loader-item,#loader2 .loader-item,#loader3 .loader-item{	top:30%;}	
 }
 
+@media (max-width: 470px) {
+    #parallaxh5 {
+        font-size: 2rem !important;
+    }
+    #parallaxp {
+        font-size: 1rem !important;
+    }
+}   #parallax-height {
+        top: 14%;
+}   
 
 @media (min-width: 992px) {
     .container p {
