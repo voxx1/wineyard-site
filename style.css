@@ -1066,6 +1066,10 @@ span.middle-line:after {
   }
 }
 
+#parallax-height {
+  top: 14%;
+}
+
 @media (min-width: 992px) {
   .container p {
     text-align: right;
