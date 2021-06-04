@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    $("#loader").fadeOut(2500);
+    $("#loader").fadeOut(4000);
     });
 
 var $cont = document.querySelector('.cont');
