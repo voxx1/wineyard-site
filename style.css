@@ -1071,6 +1071,9 @@ span.middle-line:after {
 }
 
 @media (min-width: 992px) {
+  .nav-link {
+    border-top: none !important;
+  }
   .container p {
     text-align: right;
   }
@@ -1130,6 +1133,9 @@ span.middle-line:after {
   .medium {
     display: block;
   }
+  .small-gallery {
+    display: none !important;
+  }
 }
 
 @media (min-width: 960px) {
@@ -1140,6 +1146,12 @@ span.middle-line:after {
 }
 
 @media only screen and (max-width: 1150px) and (min-width: 990px) {
+  .el__bg:before {
+    width: 107% !important;
+  }
+  .el__bg:after {
+    width: 115% !important;
+  }
   .wrapper {
     width: 1210px;
   }
