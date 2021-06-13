@@ -758,6 +758,9 @@ h5 {
 }   
 
 @media (min-width: 992px) {
+  .nav-link {
+    border-top: none !important;
+  }
     .container p {
         text-align: right;
     }
@@ -807,6 +810,9 @@ h5 {
     .medium {
         display: block;
     }
+    .small-gallery {
+      display: none !important;
+  }
     
 }   
 
@@ -817,11 +823,18 @@ h5 {
     }
 }
 @media only screen and (max-width: 1150px) and (min-width: 990px)  {
+  .el__bg:before {
+    width: 107% !important;
+  }
+  .el__bg:after {
+    width: 115% !important;
+  }
     .wrapper {
         width: 1210px;
     }
     #loader,#loader2,#loader3{	width:1210px;	height:2000px;}
     #loader .loader-item,#loader2 .loader-item,#loader3 .loader-item{top:35%;}
+
 }
 
 
