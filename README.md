@@ -1,1 +1,1 @@
-# wineyard-site3
+# Example of site for wineyard client.
