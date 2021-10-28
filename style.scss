@@ -696,10 +696,6 @@ span.middle-line:after {
 
 .parallax {
     position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display : flex;
     align-items : center;
   }
@@ -707,16 +703,16 @@ span.middle-line:after {
     background-image: url("images/winogrona.jpg");
     height: 300px;
     object-fit: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
+    margin: 20px 0 20px 0;
     background-size: cover; 
   }
   .img2 {
     background-image: url('images/paralax.jpg');
     height: 300px;
     object-fit: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
+    margin: 20px 0 20px 0;
     background-size: cover; 
   }
 
